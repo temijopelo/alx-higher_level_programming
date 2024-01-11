@@ -13,7 +13,7 @@ def roman_to_int(roman_string):
             result += roman_dict[letter]
             if roman_dict[letter] > prev:
                 result -= prev * 2
-            prev = roman_dict[letter]
-        else:
-            return (0)
+                prev = roman_dict[letter]
+            else:
+                return (0)
     return (result)
