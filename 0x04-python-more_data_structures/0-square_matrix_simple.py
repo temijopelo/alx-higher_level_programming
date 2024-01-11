@@ -2,12 +2,6 @@
 
 def square_matrix_simple(matrix=[]):
     """ Square root printed  """
-    res = []
-    for i in matrix:
-        res_row = []
-        for sqt in i:
-            res_row(sqt ** 2)
-
-        res.append(res_row)
+    res = [[sqt**2 for sqt in i] for i in matrix]
 
     return res
