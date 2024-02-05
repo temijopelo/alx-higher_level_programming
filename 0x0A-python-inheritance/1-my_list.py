@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri May 29 15:13:37 2020
+Created
 
-@author: Robinson Montes
+@author: temi
 """
 
 
@@ -15,6 +15,4 @@ class MyList(list):
         """
         Public instance method that prints sorted list
         """
-        list_copy = self[:]
-        list_copy.sort()
-        print(list_copy)
+        print(sorted(self))
